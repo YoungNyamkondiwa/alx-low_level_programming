@@ -1,8 +1,9 @@
 #include <stdio.h>
 
-/*
- *main - Entry point for the C program.
- *Return(0)- int shown on main is 0 Successfully executed.
+/**
+ * main - Entry point
+ *
+ * Return: displays 0 for success
  */
 
 int main(void)
