@@ -15,4 +15,9 @@ C Programming Hello World tasks
 >Example: if the C file is main.c, the output file should be main.s.
 
 3. 3.Name script that compiles a C file and creates an executable named cisfun.
->The C file name will be saved in the variable $CFILE
+>The C file name will be saved in the variable $CFILE.
+
+4. 4.Hello, puts C program that prints exactly "Programming is like building a multilingual puzzle, followed by a new line.
+>Use the function puts
+>You are not allowed to use printf
+>Your program should end with the value 0.
