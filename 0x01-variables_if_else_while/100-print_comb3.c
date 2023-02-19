@@ -1,34 +1,31 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
-
+#include <unistd.h>
 /**
- * main - Entry point
- *
- * Return: displays 0 for success
+ * main - Entyr point
+ * Description: prints two digits combination
+ * Return: Always 0 (success)
  */
-
 int main(void)
 {
-	int d;
-	int p;
+	int c, i;
 
-	for (d = 0; d < '9'; d++)
+	for (c = '0'; c <= '9'; c++)
 	{
-	for (p = d + 1; p <= '9'; p++)
-	{
-	if (p != d)
-	{
-	putchar(d);
-	putchar(p);
-	if (d == '8' && p == '9')
-	continue;
-	putchar(',');
-	putchar(' ');
-	}
-	}
-	}
-	putchar('\n')
+		for (i = '0'; i <= '9'; i++)
+		{
+			if (c < i)
+			{
+				putchar(c);
+				putchar(i);
 
+				if (c != '8' || (c == '8' && i != '9'))
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
+		}
+	}
+	putchar('\n');
 	return (0);
 }
