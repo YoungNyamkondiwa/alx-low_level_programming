@@ -38,4 +38,9 @@ Write a function that computes the absolute value of an integer.
 7. There are only 3 colors, 10 digits, and 7 notes; it's what we do with them that's important
 >Write a function that prints the last digit of a number.
 >Prototype: int print_last_digit(int);
->Returns the value of the last digit
+>Returns the value of the last digit.
+
+8. I'm federal agent Jack Bauer, and today is the longest day of my life 
+>Write a function that prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59.
+>Prototype: void jack_bauer(void);
+>You can listen to this soundtrack while coding :)
