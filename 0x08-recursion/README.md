@@ -4,3 +4,5 @@
 >Prototype: void _puts_recursion(char *s);
 >FYI: The standard library provides a similar function: puts. Run man puts to learn more.
 
+1. Why is it so important to dream? Because, in my dreams we are together   Write a function that prints a string in reverse.
+>Prototype: void _print_rev_recursion(char *s);
