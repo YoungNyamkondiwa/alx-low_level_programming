@@ -1,5 +1,5 @@
 #include <stdio.h>
-include "main.h"
+#include"main.h"
 /**
  * main - prints the number of arguenments passed to it
  * @argc: arguemnet count
