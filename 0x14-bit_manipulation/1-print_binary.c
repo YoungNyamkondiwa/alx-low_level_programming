@@ -18,3 +18,4 @@ void print_binary(unsigned long int n)
 		if (flag == 1)
 			((n >> i) & 1) ? _putchar('1') : _putchar('0');
 	}
+}
