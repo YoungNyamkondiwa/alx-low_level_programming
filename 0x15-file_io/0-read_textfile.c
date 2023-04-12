@@ -1,14 +1,13 @@
 #include "main.h"
-#include <unistd.h>
 #include <stdlib.h>
-#include <stdio.h>
 
 /**
- * read_textfile - Reads a text file and prints it to stdout.
- * @filename: the file to be printed.
- * @letters: Number of letters to be read and to be printed.
- * Return: Actual number of letters to be read and to be printed.
+ * read_textfile- text file the prints to stdout.
+ * @filename: the actual file to be read.
+ * @letters: letters to be read
+ * Return: bytes read which are going to be printed printed.
  */
+
 ssize_t read_textfile(const char *filename, size_t letters)
 {
 	char *buf;
